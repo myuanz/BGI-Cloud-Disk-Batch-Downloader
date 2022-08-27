@@ -1,2 +1,3 @@
-downlist.txt
-poetry.lock
+/target
+.idea
+.vscode
