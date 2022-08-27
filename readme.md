@@ -14,7 +14,7 @@ Or you can clone the repository and run `cargo build --release`
 > Sample url from random search on Github
 
 ```bash
-$ bgi_cloud_disk_batch_downloader --url https://pan.genomics.cn/ucdisk/s/YVb63y
+$ ./bgi_cloud_disk_batch_downloader --url https://pan.genomics.cn/ucdisk/s/YVb63y
 share from: 余佳临(Jialin Yu) share_201896153254859_9a4c734f7d3545168f5ed8eddd9e2703
 /00-Dr.Tom交互式报告系统解读视频/Dr.Tom系统讲解---RNA seq
         /00-Dr.Tom交互式报告系统解读视频/Dr.Tom系统讲解---RNA seq/00.摘要
