@@ -139,6 +139,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .arg("./download_list.txt")
         .arg("-d")
         .arg(&base_dir)
+        .arg("-c")
         .spawn()
         .expect("aria2c failed to start");
 
