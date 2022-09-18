@@ -70,14 +70,15 @@ c34c8f|INPR|       0B/s|./download-from-bgi/20220827//00-Dr.Tom交互式报告�
 
 help: 
 ```bash
-bgi_cloud_disk_batch_downloader 0.1
+bgi_cloud_disk_batch_downloader 0.2
 myuan
 华大基因云盘批量下载器
 
 USAGE:
-    bgi_cloud_disk_batch_downloader [OPTIONS] --url <URL>
+    bgi_cloud_disk_batch_downloader.exe [OPTIONS] --url <URL>
 
 OPTIONS:
+    -c, --code <CODE>                  extraction code [default: ]
     -e, --export-root <EXPORT_ROOT>    export to [default: ./download-from-bgi]
     -h, --help                         Print help information
     -u, --url <URL>                    shared url from BGI
