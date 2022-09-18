@@ -9,7 +9,7 @@ use std::io::prelude::*;
 use std::io::LineWriter;
 
 #[derive(Parser, Debug)]
-#[clap(author = "myuan", version = "0.1", about = "华大基因云盘批量下载器", long_about = None)]
+#[clap(author = "myuan", version = "0.2", about = "华大基因云盘批量下载器", long_about = None)]
 struct Args {
     /// shared url from BGI
     #[clap(short, long, value_parser)]
